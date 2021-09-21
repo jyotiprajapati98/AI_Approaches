@@ -1,0 +1,9 @@
+Step 1:- Setup the jupyter notebook
+Step 2:- Get API key - https://developers.google.com/maps/documentation/maps-static/get-api-key
+Step 3:- Setup gmaps
+         Installing jupyter-gmaps with conda
+          $conda install -c conda-forge gmaps
+          $jupyter nbextension enable --py --sys-prefix widgetsnbextension
+          $ pip install gmaps
+          $ jupyter nbextension enable --py --sys-prefix gmaps
+Step 4:- Start Jupyter notebook & run the gmaps.py
